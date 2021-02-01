@@ -44,8 +44,6 @@ source "${HELPER}"
 
 function blob_fixup() {
     case "${1}" in
-function blob_fixup() {
-    case "${1}" in
         system_ext/lib64/libdpmframework.so)
            "${PATCHELF}" --add-needed libdpmframework_shim.so "${2}"
             ;;

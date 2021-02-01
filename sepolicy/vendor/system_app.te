@@ -8,6 +8,12 @@ allow system_app fm_radio_device:file r_file_perms;
 # zram
 r_dir_file(system_app sysfs_zram)
 
+# Battery health
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file rw_file_perms;
+allow system_app sysfs_usb_supply:dir search;
+allow system_app sysfs_usb_supply:file rw_file_perms;
+
 # Lenovo parts
 allow system_app sysfs_kcal:dir search;
 allow system_app sysfs_kcal:file rw_file_perms;

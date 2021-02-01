@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Kuntao Resurrected</string>
-    <string name="advanced_settings">Kuntao Resurrected</string>
+    <string name="app_name">Lenovo ayarları</string>
+    <string name="advanced_settings">Lenovo ayarları</string>
     <string name="advanced_settings_summary">Cihaza özel ayarlar</string>
 
     <!-- Vibration -->

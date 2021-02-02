@@ -37,6 +37,8 @@ PRODUCT_DEVICE := kuntao
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo P2a42
 PRODUCT_MANUFACTURER := LENOVO
+EVO_DONATE_URL := https://del.dog/phetingyte.txt
+EVO_MAINTAINER := Shades_OF_Death00
 
 # Gapps
 WITH_GAPPS := true
